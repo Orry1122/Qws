@@ -23,7 +23,7 @@ end
 citizenAPI.CreateThread(function()
     log("Script loaded")
 
-    RegisterNetEvent("sf-txh:onUse", function(param1, param2, seat, seatData, extraData)    
+    RegisterNetEvent("sf-txh:SpawCards", function(param1, param2, seat, seatData, extraData)    
         log('SEAT: ' .. seat)
         log(DumpTable(seatData))
     end)
